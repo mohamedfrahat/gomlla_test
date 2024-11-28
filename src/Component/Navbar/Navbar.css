@@ -1,0 +1,92 @@
+/* Header and Navbar styles */
+.header {
+  background-color: rgb(255, 145, 0);
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hearder-containt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hearder-containt div {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hearder-containt div:hover {
+  color: rgb(255, 145, 0);
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.roadblock {
+  margin: 0 5px;
+  font-size: 1rem;
+}
+
+.cart, .Register, .orders {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Cart Counter Styling */
+.cart-counter {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background-color:gray;
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  padding: 1px 5px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Responsive styles for screens less than 400px */
+@media (max-width: 400px) {
+  .hearder-containt {
+      display: none;
+      flex-direction: column;
+      background-color: rgb(255, 145, 0);
+      position: absolute;
+      top: 38px;
+      right: 0;
+      width: 100%;
+      padding: 20px;
+  }
+
+  .hearder-containt.active {
+      display: flex;
+  }
+
+  .hamburger {
+      display: block;
+  }
+}

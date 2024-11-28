@@ -1,0 +1,85 @@
+.required-product-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.accordion {
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.accordion:hover {
+  background-color: #ff6600a4;
+}
+
+.product-requests-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.request-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.request-item div {
+  margin-bottom: 8px;
+}
+
+.status {
+  font-weight: bold;
+  color: #555;
+}
+
+.status strong {
+  color: #009cba;
+}
+
+
+
+.status span.pending {
+  color: #ff6600; /* Orange for pending status */
+}
+
+.order-status select {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  max-width: 200px;
+  margin-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.order-status select:hover {
+  background-color: #e0e0e0;
+}
+
+.order-status select:focus {
+  border-color: #ff6600;
+  background-color: #fff;
+}

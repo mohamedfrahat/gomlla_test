@@ -1,0 +1,86 @@
+.orders-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    direction: rtl; /* لتغيير اتجاه الصفحة إلى اليمين لليسار */
+  }
+  
+  .orders-title {
+    text-align: center;
+    color: #ff6600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .order-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .order-header h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .order-date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .order-items {
+    margin-bottom: 10px;
+  }
+  
+  .order-items p {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+  }
+  
+  .order-items li {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .order-total {
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.1rem;
+    text-align: left; /* المحاذاة لليسار في النصوص */
+  }
+  
+  .no-orders {
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+  }
+  

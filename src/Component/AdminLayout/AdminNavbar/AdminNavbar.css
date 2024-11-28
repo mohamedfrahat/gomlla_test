@@ -1,0 +1,28 @@
+/* AdminNavbar.css */
+
+.admin-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .admin-navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+  }
+  
+  .admin-navbar a:hover {
+    background-color: #444;
+  }
+  
+  .admin-navbar button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  

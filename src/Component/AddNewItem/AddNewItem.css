@@ -1,0 +1,77 @@
+.add-new-item-container {
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-new-item-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-product-form label {
+    display: block;
+    font-weight: bold;
+  }
+ 
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  .image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .add-product-form input[type="text"],
+  .add-product-form input[type="number"],
+  .add-product-form input[type="file"],
+  .add-product-form .error-message {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .image-preview {
+    display: block;
+    max-width: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .btn-main {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-main:hover {
+    background-color: #ff6600b4;
+  }
+  
